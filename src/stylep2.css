@@ -1,0 +1,70 @@
+body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #b3cde0;
+    color: #011f4b;
+    line-height: 1.6;
+}
+
+.h1_curso {
+    background-color: #03396c;
+    color: white;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #005b96;
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-spacing: 10px;
+}
+table, td, tr {
+    border: 1.5px solid #005b96;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.embed {
+    width: auto;
+}
+
+.table_profile {
+    margin: 4rem;
+}
+
+.h3_profile, .h4_profile, .p_profile {
+    margin: 20px;
+    color: #03396c;
+}
+
+.socialmedias {
+    display: flex;
+    margin: 20px;
+    gap: 15px;
+}
+
+#photo-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: auto;
+    margin: 20px;
+}
+#photo-gallery img {
+    width: 333px;
+    height: 333px;
+    object-fit: cover;
+}
