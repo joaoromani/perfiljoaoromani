@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const images = ["images/eu.jpg", "images/eu2.png", "images/eu3.png", "images/eu4.jpg", "images/eu5.jpg"];
+    const images = ["images/eu.jpg", "images/eu2.png", "images/eu3.png", "images/eu4.jpg", "images/eu5.jpg", "images/eu6.jpg"];
     let i= 0;
 
     const mainPhoto = document.getElementById("main-photo");
