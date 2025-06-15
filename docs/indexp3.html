@@ -12,28 +12,28 @@
 <body>
     <h1 class="h1_curso"> 3º Período - Análise e Desenvolvimento de Sistemas | RA: 124110378</h1>
     <table class="table_profile">
-        <th></th>
         <tr style="text-align: justify;">
-            <td style="width: 500px;">
+            <td style="width: 500px; vertical-align: top;">
                 <div id="photo-gallery">
                     <button id="botaovoltar">◀</button>
                     <img id="main-photo" src="./images/eu.jpg" width="300rem" alt="Foto de Perfil">
                     <button id="botaoseguir">▶</button>
                 </div>
             </td>
-            <td id="cont-perfil">
+            <td id="container-descricao">
                 <h2 style="text-align: center;">João Vitor Romani Nogueira de Paula</h2>
                 <h3 class="h3_profile">Rua Chalmers, 432 - 34000-204 | Nova Lima, Minas Gerais </h3>
                 <h3 class="h3_profile">
                     <label for="email">E-mail:</label>
                     <input type="text" id="email" value="romani.joao1@gmail.com" size="30">
+                    <span id="status-email" class="status-icone"></span>
                 </h3>
 
                 <h3 class="h3_profile">
                     <label for="cpf">CPF:</label>
                     <input type="text" id="cpf" placeholder="000.000.000-00">
+                    <span id="status-cpf" class="status-icone"></span>
                 </h3>
-                <h3 class="h3_profile">romani.joao1@gmail.com</h3>
                 <h4 class="h4_profile">UC's já cursadas:
                     <ul id="lista-ucs">
                         <li>Modelagem de software </li>
@@ -42,7 +42,7 @@
                         <li>Sistemas computacionais</li>
                         <li>Segurança e Vida & Carreira</li>
                     </ul>
-                    <button id="btn-add-uc">Adicionar UC</button>
+                    <button id="btn-add-uc" class="btn-fase3">Adicionar UC</button>
                 </h4>
                 <p class="p_profile">
                     Gosto muito de ir na academia, treinar, mas com a correria do dia a dia, só consigo jogar um futebol
@@ -52,19 +52,20 @@
                     parte de jogos. Profissionalmente, quero continuar e crescer na área tech e alcançar empresas como
                     Google, Meta ou grandes bancos.
                 </p>
-                <div>
+                <div id="form-nova-info">
+                    <div class="margem">
                     <h4>Adicionar nova informação ao perfil:</h4>
-                    <textarea id="nova-info-perfil" rows="4" style="width: 90%;"></textarea>
-                    <button id="btn-add-info">Adicionar</button>
+                    <textarea id="nova-info-perfil" ...></textarea>
+                    <button id="btn-add-info" class="btn-fase3">Adicionar</button>
+                    </div>
                 </div>
-                <div class="socialmedias">
+                <div id="marcador-social" class="socialmedias">
                     <a href="https://www.linkedin.com/in/joaoromani/"><img src="./images/inlogo.png" alt=""
                             width="50px"></a>
                     <a href="https://www.instagram.com/joaoromani_/"><img src="./images/instalogo.png" alt=""
                             width="50px"></a>
                 </div>
-                <h3 style="text-align: center;">Ir para a Fase 3: <a href="indexp3.html">Clique aqui</a></h3>
-                <h3 style="text-align: center;">Voltar para a Fase 1: <a href="index.html">Clique aqui</a></h3>
+                <h3 style="text-align: center;">Voltar para a Fase 2: <a href="indexp2.html">Clique aqui</a></h3>
             </td>
 
         </tr>

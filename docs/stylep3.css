@@ -68,3 +68,72 @@ p {
     height: 333px;
     object-fit: cover;
 }
+
+#form-nova-info {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #005b96;
+}
+
+#nova-info-perfil {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #005b96;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #e0eaf1;
+}
+.margem {
+    margin: 2rem  ;
+}
+
+.btn-fase3 {
+    background-color: #03396c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+}
+.btn-fase3:hover {
+    background-color: #005b96;
+}
+/* === ESTILOS PARA ORDENAÇÃO DE UC's (VERSÃO RE-ESTILIZADA) === */
+
+/* Alinha os itens da lista (botões e texto) */
+#lista-ucs li {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+    margin-bottom: 8px;
+}
+
+/* Novo estilo para os botões de ordenação */
+.btn-ordem {
+    background-color: transparent;
+    border: 1px solid #03396c;
+    color: #03396c;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px; /* Espaço entre os botões */
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-ordem:hover {
+    background-color: #03396c;
+    color: white;
+}
+
+/* Adiciona espaço entre os botões e o texto da UC */
+.texto-uc {
+    margin-left: 10px;
+}
