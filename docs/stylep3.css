@@ -104,16 +104,13 @@ p {
 .btn-fase3:hover {
     background-color: #005b96;
 }
-/* === ESTILOS PARA ORDENAÇÃO DE UC's (VERSÃO RE-ESTILIZADA) === */
 
-/* Alinha os itens da lista (botões e texto) */
 #lista-ucs li {
     display: flex;
-    align-items: center; /* Alinha verticalmente no centro */
+    align-items: center;
     margin-bottom: 8px;
 }
 
-/* Novo estilo para os botões de ordenação */
 .btn-ordem {
     background-color: transparent;
     border: 1px solid #03396c;
@@ -124,7 +121,7 @@ p {
     cursor: pointer;
     font-size: 12px;
     font-weight: bold;
-    margin-right: 5px; /* Espaço entre os botões */
+    margin-right: 5px; 
     transition: all 0.2s ease-in-out;
 }
 
@@ -133,7 +130,6 @@ p {
     color: white;
 }
 
-/* Adiciona espaço entre os botões e o texto da UC */
 .texto-uc {
     margin-left: 10px;
 }

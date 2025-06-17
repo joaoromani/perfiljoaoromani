@@ -1,33 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // --- PARTE 1: SELEÇÃO DE TODOS OS ELEMENTOS DO HTML ---
-    // É uma boa prática declarar todas as variáveis que buscam elementos no início.
-
-    // Elementos do Carrossel de Fotos (Fase 2)
+// VARIAVEIS
+    //Carrossel de Fotos (Fase 2)
     const mainPhoto = document.getElementById("main-photo");
     const prevBtn = document.getElementById("botaovoltar");
     const nextBtn = document.getElementById("botaoseguir");
 
-    // Elementos da Validação de Campos (Fase 3)
+    //Validação de email e cpf (Fase 3)
     const inputCPF = document.getElementById("cpf");
     const inputEmail = document.getElementById("email");
     const statusCPF = document.getElementById("status-cpf");
     const statusEmail = document.getElementById("status-email");
 
-    // Elementos de Adicionar Descrição (Fase 3)
+    //Adicionar descrição (Fase 3)
     const botaoAdicionarInfo = document.getElementById("btn-add-info");
     const textareaInfo = document.getElementById("nova-info-perfil");
     const containerDescricao = document.getElementById("container-descricao");
     const formNovaInfo = document.getElementById("form-nova-info");
 
-    // Elementos de Adicionar e Ordenar UCs (Fase 3)
+    //Adicionar e Ordenar UCs (Fase 3)
     const botaoAdicionarUC = document.getElementById("btn-add-uc");
     const listaUCs = document.getElementById("lista-ucs");
 
-
-    // --- PARTE 2: LÓGICA DAS FUNCIONALIDADES ---
-
-    // Lógica do Carrossel de Fotos
+//Partes Lógicas
+    //Carrossel de Fotos
     const images = ["images/eu.jpg", "images/eu2.png", "images/eu3.png", "images/eu4.jpg", "images/eu5.jpg"];
     let i = 0;
     if (prevBtn && nextBtn && mainPhoto) {
@@ -42,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Lógica da Validação de Campos
+    //Validação de email e cpf
     if (inputCPF && statusCPF) {
         inputCPF.addEventListener("blur", () => {
             const regexCPF = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
@@ -69,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Lógica de Adicionar Descrição
+    //Lógica de Adicionar Descrição
     if (botaoAdicionarInfo && textareaInfo && containerDescricao && formNovaInfo) {
         botaoAdicionarInfo.addEventListener("click", () => {
             const novaInfo = textareaInfo.value;
@@ -83,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Lógica de Adicionar e Ordenar UCs
+    //Lógica de Adicionar e Ordenar UCs
     if (botaoAdicionarUC && listaUCs) {
         function adicionarControles(itemLista) {
             const textoUC = itemLista.textContent;
